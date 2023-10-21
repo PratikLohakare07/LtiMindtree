@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/coder/project/workspace/BzLayer/BzLayer.csproj": {}
+    "/home/coder/project/workspace/DataApp/BzLayer.csproj": {}
   },
   "projects": {
-    "/home/coder/project/workspace/BzLayer/BzLayer.csproj": {
+    "/home/coder/project/workspace/DataApp/BzLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coder/project/workspace/BzLayer/BzLayer.csproj",
+        "projectUniqueName": "/home/coder/project/workspace/DataApp/BzLayer.csproj",
         "projectName": "BzLayer",
-        "projectPath": "/home/coder/project/workspace/BzLayer/BzLayer.csproj",
+        "projectPath": "/home/coder/project/workspace/DataApp/BzLayer.csproj",
         "packagesPath": "/home/coder/.nuget/packages/",
-        "outputPath": "/home/coder/project/workspace/BzLayer/obj/",
+        "outputPath": "/home/coder/project/workspace/DataApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coder/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
